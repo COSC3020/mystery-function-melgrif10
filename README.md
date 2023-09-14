@@ -12,5 +12,9 @@ function mystery(a) {
     else return a[0];   //If not return a[0]
 }
 
-// If the length of the array is 1 then it returns index 0 of the array. Otherwise it will recursively call itself to the array excluding the first element and store the result as foo. It compares foo with the first element in the array and if the result is greater returns the value foo. Else it will return the first element. The mystery function is going through and sorting the array by finding the largest element. 
+/* If the length of the array is 1 then it returns index 0 of the array. 
+Otherwise it will recursively call itself to the array excluding the first element and store the result as foo. 
+It compares foo with the first element in the array and if the result is greater returns the value foo. 
+Else it will return the first element. 
+The mystery function is finding the largest element in the array. */
 ```
